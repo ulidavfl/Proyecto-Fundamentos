@@ -1,5 +1,4 @@
->> calculadora_denavit
- 
+
 H =
  
 [ cos(q3)*(cos(q0)*cos(q1)*cos(q2) - cos(q0)*sin(q1)*sin(q2)) - sin(q0)*sin(q3), - cos(q3)*sin(q0) - sin(q3)*(cos(q0)*cos(q1)*cos(q2) - cos(q0)*sin(q1)*sin(q2)), cos(q0)*cos(q1)*sin(q2) + cos(q0)*cos(q2)*sin(q1), l0*cos(q0) + l1*cos(q0)*cos(q1) + l2*cos(q0)*cos(q1)*cos(q2) - l2*cos(q0)*sin(q1)*sin(q2)]
