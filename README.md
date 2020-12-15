@@ -1,5 +1,7 @@
 # Robot Manipulador de 4 Grados de Libertad
 
+![alt text](https://github.com/ulidavfl/Proyecto-Fundamentos/blob/main/Documentaci%C3%B3n/Render1.2.jpg?raw=true)
+
 El objetivo de este proyecto es modelar un brazo robótico de 4 grados de libertad a través del método Denavit-Hartenberg para determinar la cinemática directa del mecanismo. Dentro de este repositorio se encuentran los archivos necesarios para el software de control basado en MATLAB interconectado con la plataforma Arduino.
 
 ## Software de Control: MATLAB
