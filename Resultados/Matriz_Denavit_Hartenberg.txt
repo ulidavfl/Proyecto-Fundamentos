@@ -1,0 +1,22 @@
+
+H =
+ 
+[ cos(q3)*(cos(q0)*cos(q1)*cos(q2) - cos(q0)*sin(q1)*sin(q2)) - sin(q0)*sin(q3), - cos(q3)*sin(q0) - sin(q3)*(cos(q0)*cos(q1)*cos(q2) - cos(q0)*sin(q1)*sin(q2)), cos(q0)*cos(q1)*sin(q2) + cos(q0)*cos(q2)*sin(q1), l0*cos(q0) + l1*cos(q0)*cos(q1) + l2*cos(q0)*cos(q1)*cos(q2) - l2*cos(q0)*sin(q1)*sin(q2)]
+[ cos(q0)*sin(q3) - cos(q3)*(sin(q0)*sin(q1)*sin(q2) - cos(q1)*cos(q2)*sin(q0)),   cos(q0)*cos(q3) + sin(q3)*(sin(q0)*sin(q1)*sin(q2) - cos(q1)*cos(q2)*sin(q0)), cos(q1)*sin(q0)*sin(q2) + cos(q2)*sin(q0)*sin(q1), l0*sin(q0) + l1*cos(q1)*sin(q0) + l2*cos(q1)*cos(q2)*sin(q0) - l2*sin(q0)*sin(q1)*sin(q2)]
+[                                  -cos(q3)*(cos(q1)*sin(q2) + cos(q2)*sin(q1)),                                     sin(q3)*(cos(q1)*sin(q2) + cos(q2)*sin(q1)),                 cos(q1)*cos(q2) - sin(q1)*sin(q2),                                 d0 - l1*sin(q1) - l2*cos(q1)*sin(q2) - l2*cos(q2)*sin(q1)]
+[                                                                             0,                                                                               0,                                                 0,                                                                                         1]
+ 
+ 
+x =
+ 
+l0*cos(q0) + l1*cos(q0)*cos(q1) + l2*cos(q0)*cos(q1)*cos(q2) - l2*cos(q0)*sin(q1)*sin(q2)
+ 
+ 
+y =
+ 
+l0*sin(q0) + l1*cos(q1)*sin(q0) + l2*cos(q1)*cos(q2)*sin(q0) - l2*sin(q0)*sin(q1)*sin(q2)
+ 
+ 
+z =
+ 
+d0 - l1*sin(q1) - l2*cos(q1)*sin(q2) - l2*cos(q2)*sin(q1)
