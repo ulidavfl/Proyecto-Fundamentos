@@ -3,9 +3,9 @@ function joint_m2(degrees, s)
 steps = (degrees*12)/11.25;
 
 if degrees > 0
-    motor_enable = 19;
+    motor_enable = 9;
 else
-    motor_enable = 17;
+    motor_enable = 8;
 end
 
 write(s, motor_enable, "uint8")
