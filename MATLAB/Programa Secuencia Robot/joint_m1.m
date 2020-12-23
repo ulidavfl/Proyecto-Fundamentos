@@ -16,6 +16,7 @@ write(s, motor_enable, "uint8")
         end    
     end
 flush(s)
+disp("Recibido")
     
 write(s, steps, "uint8")
     while true
