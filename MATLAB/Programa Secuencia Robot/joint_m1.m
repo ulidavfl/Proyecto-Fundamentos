@@ -9,22 +9,23 @@ else
 end
 
 write(s, motor_enable, "uint8")
-    while true
-        received = read(s, 1, "uint8");
-        if received == 1
-            break
-        end    
-    end
+while true
+    received = read(s, 1, "uint8");
+    if received == 1
+        break
+    end    
+end
+disp("Recibido")    
 flush(s)
-disp("Recibido")
     
 write(s, steps, "uint8")
-    while true
-        received = read(s, 1, "uint8");
-        if received == 1
-            break
-        end    
-    end
+while true
+    received = read(s, 1, "uint8");
+    if received == 1
+        break
+    end    
+end
+disp("Recibido")
 flush(s)    
     
 end
