@@ -1,4 +1,4 @@
-s = serialport("COM1", 9600);
+s = serialport("COM1", 10250);
 
 while true
 
