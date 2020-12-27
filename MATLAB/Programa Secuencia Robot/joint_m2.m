@@ -4,8 +4,10 @@ steps = (degrees*12)/11.25;
 
 if degrees > 0
     motor_enable = 9;
+    disp("Positivo")
 else
     motor_enable = 8;
+    disp("Negativo")
 end
 
 write(s, motor_enable, "uint8")
