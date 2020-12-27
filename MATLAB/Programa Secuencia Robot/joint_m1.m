@@ -3,7 +3,7 @@ function joint_m1(degrees, s)
 steps = (degrees*12)/11.25;
 
 if degrees > 0
-    motor_enable = 2;
+    motor_enable = 3;
 else
     motor_enable = 2;
 end
