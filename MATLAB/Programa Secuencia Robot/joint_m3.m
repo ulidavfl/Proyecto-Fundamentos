@@ -1,16 +1,12 @@
 function joint_m3(degrees, s)
 
-disp(degrees)
-
 steps = (degrees*12)/11.25;
 
 if degrees < 0
     motor_enable = 16;
     steps = steps*-1;
-    disp("Negativo")
 else
     motor_enable = 17;
-    disp("Positivo")
 end
 
 write(s, motor_enable, "uint8")
