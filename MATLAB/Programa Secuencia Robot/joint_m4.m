@@ -5,10 +5,11 @@ disp(degrees)
 steps = (degrees*12)/11.25;
 
 if degrees < 0
-    motor_enable = 33;
+    motor_enable = 32;
+    steps = steps*-1;
     disp("Negativo")
 else
-    motor_enable = 32;
+    motor_enable = 33;
     disp("Positivo")
 end
 
