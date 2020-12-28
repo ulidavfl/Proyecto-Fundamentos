@@ -1,5 +1,7 @@
 function joint_m2(degrees, s)
 
+disp(degrees)
+
 steps = (degrees*12)/11.25;
 
 if degrees < 0
