@@ -2,6 +2,8 @@ function joint_m3(degrees, s)
 
 steps = (degrees*12)/11.25;
 
+steps = round(steps);
+
 if degrees < 0
     motor_enable = 16;
     steps = steps*-1;
