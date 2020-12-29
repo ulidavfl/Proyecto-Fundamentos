@@ -47,6 +47,6 @@ while true
     end    
 end
 disp("Recibido")
-flush(s)    
+flush(s)     
     
 end
