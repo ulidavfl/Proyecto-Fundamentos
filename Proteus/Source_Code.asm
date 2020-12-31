@@ -7,7 +7,9 @@ pasos	    equ		    24
 	    
 	    org		    0x00
 
-	    GOTO	    aqui
+	    GOTO	    conf
+	    
+;==============================[Interrupción]===================================	    
 
 	    org		    0x04
 
@@ -42,8 +44,10 @@ espera_int
 	    MOVWF	    CCP1CON
 	    
 	    RETFIE
+	    
+;=============================[Configuración]===================================	    
 
-aqui
+conf
 	    
 	    BSF		    STATUS, 5
 	
