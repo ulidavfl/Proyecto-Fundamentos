@@ -2,7 +2,7 @@ function joint_m4(degrees, s, ui)
 
 if ishandle(ui)
     
-    if abs(degrees) > 90
+    if abs(degrees) > 90 %s
     
         error("Ángulo inváido para la articulación 4");
     

@@ -2,7 +2,7 @@ function joint_m3(degrees, s, ui)
 
 if ishandle(ui)
     
-    if degrees > 160 || degrees < -70
+    if degrees > 160 || degrees < -70 %s
     
         error("Ángulo inváido para la articulación 3");
     
