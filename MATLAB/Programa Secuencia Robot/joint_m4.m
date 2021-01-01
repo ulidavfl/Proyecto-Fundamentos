@@ -8,7 +8,7 @@ if ishandle(ui)
     
     else
 
-        steps = (degrees*12)/11.25;
+        steps = degrees/0.9;
 
         steps = round(steps);
 

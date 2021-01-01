@@ -2,7 +2,7 @@ function joint_m1(degrees, s, ui)
 
 if ishandle(ui)
 
-    steps = (degrees*12)/11.25;
+    steps = (degrees*4)/3.75;
 
     steps = round(steps);
 
