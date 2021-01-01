@@ -2,7 +2,7 @@ function joint_m2(degrees, s, ui)
 
 if ishandle(ui)
     
-    if abs(degrees) > 60
+    if degrees > 160 || degrees < -70 
     
         error("Ángulo inváido para la articulación 2");
     
