@@ -4,7 +4,7 @@ if ishandle(ui)
     
     if degrees > 160 || degrees < -70
     
-        error("Ángulo inváido para la articulación 2");
+        error("Ángulo inválido para la articulación 2");
     
     else
 

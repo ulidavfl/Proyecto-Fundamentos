@@ -4,7 +4,7 @@ if ishandle(ui)
     
     if abs(degrees) > 90
     
-        error("Ángulo inváido para la articulación 4");
+        error("Ángulo inválido para la articulación 4");
     
     else
 
