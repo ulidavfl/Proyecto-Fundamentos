@@ -2,22 +2,22 @@
  
 H =
  
-[ cos(q3)*(cos(q0)*cos(q1)*cos(q2) - cos(q0)*sin(q1)*sin(q2)) - sin(q0)*sin(q3), - cos(q3)*sin(q0) - sin(q3)*(cos(q0)*cos(q1)*cos(q2) - cos(q0)*sin(q1)*sin(q2)), cos(q0)*cos(q1)*sin(q2) + cos(q0)*cos(q2)*sin(q1), l0*cos(q0) - d2*sin(q0) + l1*cos(q0)*cos(q1)]
-[ cos(q0)*sin(q3) - cos(q3)*(sin(q0)*sin(q1)*sin(q2) - cos(q1)*cos(q2)*sin(q0)),   cos(q0)*cos(q3) + sin(q3)*(sin(q0)*sin(q1)*sin(q2) - cos(q1)*cos(q2)*sin(q0)), cos(q1)*sin(q0)*sin(q2) + cos(q2)*sin(q0)*sin(q1), d2*cos(q0) + l0*sin(q0) + l1*cos(q1)*sin(q0)]
-[                                  -cos(q3)*(cos(q1)*sin(q2) + cos(q2)*sin(q1)),                                     sin(q3)*(cos(q1)*sin(q2) + cos(q2)*sin(q1)),                 cos(q1)*cos(q2) - sin(q1)*sin(q2),                              d0 - l1*sin(q1)]
-[                                                                             0,                                                                               0,                                                 0,                                            1]
+[ cos(q3)*(cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)) - sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0))) - sin(q3)*(cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)) + sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1))), - cos(q3)*(cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)) + sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1))) - sin(q3)*(cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)) - sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0))), 0, (3262*cos(q0))/25 + (1018*cos(q0)*cos(q1))/5 - (1018*sin(q0)*sin(q1))/5 + 20*cos(q3)*(cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)) - sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0))) - 20*sin(q3)*(cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)) + sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1))) + (3822*cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)))/25 - (3822*sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)))/25]
+[ cos(q3)*(cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)) + sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1))) + sin(q3)*(cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)) - sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0))),   cos(q3)*(cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)) - sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0))) - sin(q3)*(cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)) + sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1))), 0, (3262*sin(q0))/25 + (1018*cos(q0)*sin(q1))/5 + (1018*cos(q1)*sin(q0))/5 + 20*cos(q3)*(cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)) + sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1))) + 20*sin(q3)*(cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)) - sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0))) + (3822*cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)))/25 + (3822*sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)))/25]
+[                                                                                                                                                                                                         0,                                                                                                                                                                                                           0, 1,                                                                                                                                                                                                                                                                                                                                                                                                 11151/100]
+[                                                                                                                                                                                                         0,                                                                                                                                                                                                           0, 0,                                                                                                                                                                                                                                                                                                                                                                                                         1]
  
  
 x =
  
-l0*cos(q0) - d2*sin(q0) + l1*cos(q0)*cos(q1)
+(3262*cos(q0))/25 + (1018*cos(q0)*cos(q1))/5 - (1018*sin(q0)*sin(q1))/5 + 20*cos(q3)*(cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)) - sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0))) - 20*sin(q3)*(cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)) + sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1))) + (3822*cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)))/25 - (3822*sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)))/25
  
  
 y =
  
-d2*cos(q0) + l0*sin(q0) + l1*cos(q1)*sin(q0)
+(3262*sin(q0))/25 + (1018*cos(q0)*sin(q1))/5 + (1018*cos(q1)*sin(q0))/5 + 20*cos(q3)*(cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)) + sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1))) + 20*sin(q3)*(cos(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)) - sin(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0))) + (3822*cos(q2)*(cos(q0)*sin(q1) + cos(q1)*sin(q0)))/25 + (3822*sin(q2)*(cos(q0)*cos(q1) - sin(q0)*sin(q1)))/25
  
  
 z =
  
-d0 - l1*sin(q1)
+11151/100
